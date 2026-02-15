@@ -9,10 +9,10 @@
 
 ## Pre-Release v3.x
 
-The pre-release of NanoXLSX is now available as [Nuget Package](https://www.nuget.org/packages/NanoXLSX/3.0.0-rc.7), version **3.0.0-rc.8**.
-Since there are breaking changes between NanoXLSX v2.x and v3.0.0-rc8, please see the **[Migration guide](MigrationGuide.md)**, to migrate applications from v2 to v3. Please feel free to open issues, in case of problems with the pre-release.
+The pre-release of NanoXLSX is now available as [Nuget Package](https://www.nuget.org/packages/NanoXLSX/3.0.0-rc.9), version **3.0.0-rc.9**.
+Since there are breaking changes between NanoXLSX v2.x and v3.0.0-rc9, please see the **[Migration guide](MigrationGuide.md)**, to migrate applications from v2 to v3. Please feel free to open issues, in case of problems with the pre-release.
 
-rc.8 is planned as **last release candidate** before the final release. If no errors are discovered in this version, the final release (v3.0.0) will have this code base. The v3 release is planned for **end of February 2026**.
+rc.9 is planned as **last release candidate** before the final release. If no errors are discovered in this version, the final release (v3.0.0) will have this code base. The v3 release is planned for **end of February 2026**.
 
 See also the wiki entry for some thoughts: [From Monolith to Modules: Why NanoXLSX Finally Broke Its Own Traditions](https://github.com/rabanti-github/NanoXLSX/wiki/From-Monolith-to-Modules:-Why-NanoXLSX-Finally-Broke-Its-Own-Traditions)
 
