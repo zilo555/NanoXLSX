@@ -54,6 +54,19 @@ However, to ensure a good experience for everyone (library users, developers, or
   * Excessive use of the var keyword (The goal of the library is to make its usage as clear as possible and that code snippets are always appropriately typed, even if the usings are not available)
   * Uses cryptic variable or function names (`CalcAmount` may be OK as function name , but `GT56R` may not)
   * Introduces (inline) hard-coded values that are either already defined as constants or could be substituted by an existing enum or similar code parts
-  * Code that is clearly copied from somewhere else or is AI generated
-    * External sources: Ensure compliance with the licenses. Don’t use code that may have a more restrictive license than NanoXLSX (MIT) or that has no license declaration
-    * AI: That’s great, and we love what AI can achieve nowadays! But please, revise the code, check it, and remove unnecessary comments. Ensure that this code cannot cause a licensing issue too  
+  * Code that is clearly copied from external sources: Ensure compliance with the licenses. Don’t use code that may have a more restrictive license than NanoXLSX (MIT) or that has no license declaration
+
+### AI generated code
+
+Some promises were made, some were not kept, and some expectations were far exceeded.
+We have come to the conclusion that AI-generated code (especially from AI agents) can significantly increase both productivity and code quality. However, the following must be observed when submitting PRs that include AI-generated code:
+
+* Please do not submit very large AI-driven refactorings without discussing them first. During code reviews, we must ensure that only the necessary scope has been changed in order to prevent side effects, compatibility issues, or inconsistencies.
+* Please make sure to carefully review AI-generated code before submitting it. Even an AI can have a bad day.
+* Please remove unnecessary comments, TODOs (where not needed), and other markup that only serves the AI. If you create (or have generated) context files for the code, do not commit them at this time. **Note**: A decision may be made later on whether to introduce a dedicated context directory (for Copilots / agents, etc.).
+* Please ensure that AI-generated code does not break any unit tests.
+* Please ensure that AI-generated unit tests are meaningful (not: `Assert.True(true)` or similar).
+* Please ensure that AI-generated code follows the project’s defined contribution, coding, and code style guidelines.
+
+Happy coding! 🤖
+
